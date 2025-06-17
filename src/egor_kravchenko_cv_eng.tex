@@ -1,0 +1,53 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{pxfonts}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[pdfpagelabels,hyperindex,colorlinks=true,linkcolor=blue,urlcolor=magenta,citecolor=green]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english, polish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\graphicspath{{./}}
+\linespread{1.3}
+
+%\usepackage{setspace}
+%\onehalfspacing
+
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\titleformat{\subsection}
+{\normalfont\fontsize{13}{0}\bfseries}{\thesection}{1em}{}
+
+\newcommand{\bskip}{\hspace{1.5em}}
+\newcommand{\nskip}{\hspace{1.0em}}
+
+\begin{document}
+    \input{sections/heading}
+    \input{sections/experience}
+    \input{sections/education}
+    \input{sections/skills}
+    \input{sections/projects}
+\end{document}

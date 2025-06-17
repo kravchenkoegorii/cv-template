@@ -1,0 +1,1 @@
+C#, TypeScript, LINQ, SQL, HTML, CSS, ASP .NET Core, EF Core, NUnit, XUnit, Moq, PostgreSQL, SQLServer, Docker, Git, GitHub Actions, Azure Pipelines, SignalR
